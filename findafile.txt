@@ -1,0 +1,12 @@
+#!/usr/bin/perl -w 
+ use strict; 
+ use 5.10.1; 
+
+ use File::Find; 
+
+ my %files_to_find = map {$_ => 1} @ARGV; 
+
+ File::Find::find( 
+ sub { say $File::Find::name if $files_to_find{$_} }, 
+ '.' 
+ ); 
