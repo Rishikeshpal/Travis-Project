@@ -1,4 +1,3 @@
 -language: ant
 
 ant compile
-ant run
