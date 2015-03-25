@@ -1,1 +1,2 @@
-perl hello.pl
+ant compile
+ant run
