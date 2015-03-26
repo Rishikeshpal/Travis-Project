@@ -1,3 +1,3 @@
 language: java
 
-install: ant run
+install: ant clean
