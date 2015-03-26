@@ -6,7 +6,7 @@
 
     <target name="compile">
         <mkdir dir="build/classes"/>
-        <javac srcdir="." destdir="build/classes"/>
+        <javac srcdir="Travis-Project" destdir="build/classes"/>
     </target>
 
     <target name="jar">
